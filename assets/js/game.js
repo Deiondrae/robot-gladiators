@@ -225,7 +225,7 @@ var playerInfo = {
     },
     upgradeAttack: function() {
         if (this.money >= 7){
-            window.alert("Upgrading player's attach by 6 for $7")
+            window.alert("Upgrading player's attack by 6 for $7")
             this.attack += 6;
             this.money -= 7;
         }
